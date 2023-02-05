@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="divisas">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4283982"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6ed67" class="javax.swing.JTextField" binding="divisa">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ce428" class="javax.swing.JTextField" binding="divisafinal">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="20" style="1"/>
+          <foreground color="-15259205"/>
+        </properties>
+      </component>
+      <component id="5dbec" class="javax.swing.JComboBox" binding="combo2">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <model>
+            <item value="EURO"/>
+            <item value="DOLAR"/>
+            <item value="PESO MEXICANO"/>
+            <item value="PESO COLOMBIANO"/>
+            <item value="SOLES"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e9288" class="javax.swing.JComboBox" binding="combo1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <model>
+            <item value="DOLAR"/>
+            <item value="EURO"/>
+            <item value="PESO MEXICANO"/>
+            <item value="PESO COLOMBIANO"/>
+            <item value="SOLES"/>
+          </model>
+        </properties>
+      </component>
+      <component id="219e1" class="javax.swing.JButton" binding="convertir">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Convertir"/>
+        </properties>
+      </component>
+      <component id="e079e" class="javax.swing.JButton" binding="limpiar">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Limpiar"/>
+        </properties>
+      </component>
+      <component id="3360" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <foreground color="-16053317"/>
+          <text value="CONVERSOR"/>
+        </properties>
+      </component>
+      <component id="eab90" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <foreground color="-16053317"/>
+          <text value="DIVISAS"/>
+        </properties>
+      </component>
+      <component id="babeb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16053317"/>
+          <font name="Arial Black" size="20"/>
+          <foreground color="-16053317"/>
+          <text value="DE"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
