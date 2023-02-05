@@ -1,7 +1,9 @@
+import java.awt.Color;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-//  https://www.youtube.com/watch?v=b7rC0BENpQw&t=433s ME BASO EN ESTE VIDEO
+
+
 public class calcu {
     private JTextField pantalla;
     private JButton Boton7;
@@ -25,6 +27,7 @@ public class calcu {
     private JPanel Panel1;
     private JButton button1;
     private JButton cButton;
+    private JButton CAMBIARCOLORButton;
 
     public float primerNum;
     public float segundoNum;
@@ -241,6 +244,15 @@ public class calcu {
                 if( !pantalla.getText().contains(".") ){
                     pantalla.setText(pantalla.getText()+".");
                 }
+            }
+        });
+        CAMBIARCOLORButton.addActionListener(new ActionListener() {
+            Color color;
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            JColorChooser colorsito = new JColorChooser();
+            color=colorsito.showDialog(null,"Selecciona un color",Color.gray);
+            Panel1.setBackground(color);
             }
         });
     }
