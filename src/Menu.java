@@ -96,7 +96,8 @@ public class Menu extends JFrame implements ActionListener{
 
         JLabel label = new JLabel();
         m1.add(label);
+        label.setText("Usuario: MIGUEL");
         label.setIcon(new ImageIcon("img/Perfil.png"));
-        label.setBounds(500,0,50,50);
+        label.setBounds(260,360,120,120);
     }
 }

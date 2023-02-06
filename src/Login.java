@@ -16,9 +16,8 @@ public class Login extends Menu{
             public void actionPerformed(ActionEvent e) {
                 boolean ingreso = false;
                 String user = "miguel";
-                String contrasenia = "miguel";
+                String contrasenia ="miguel";
                 String pass = new String(escribirContra.getPassword());
-
                 if(escribirUsuario.getText().equals(user) && pass.equals(contrasenia)){
                         ingreso = true;
                 }
@@ -38,13 +37,14 @@ public class Login extends Menu{
                     frame.setContentPane(new Menu().getJMenuBar());
                     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                     frame.pack();
-                    frame.setSize(1000, 1000);
+                    frame.setSize(700, 700);
                     frame.setLocationRelativeTo(null);
                     frame.setVisible(true);
                 }
             }
         });
     }
+
 
     public static void main (String[] args){
         JFrame frame = new JFrame("Login");
