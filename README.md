@@ -2,8 +2,7 @@
 Se creo un login en el que si se ingresa mal las credenciales no deja acceder al sistema
 cuando ingresamos al sistema se puede observar una imagen de perfil del usuario
 y un menu contenedor de los componentes de con diferentes funcionalidades como por ejemplo:
-			
-			    FUNCIONALIDADES CON COMPONENTES
+FUNCIONALIDADES CON COMPONENTES
 1.menu(JMenuBar)
 2.calculadora de divisas (JComboBox,JTextField)
 3.IMC (JSpinner) 
