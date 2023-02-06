@@ -257,7 +257,7 @@ public class calcu {
         });
     }
 
-    public static void main(String[] args) {
+    public void a() {
         JFrame frame = new JFrame("Calculadora");
         frame.setContentPane( new calcu().Panel1 );
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

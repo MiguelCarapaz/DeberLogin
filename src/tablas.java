@@ -50,9 +50,9 @@ public class tablas extends JFrame {
             model.removeRow(fila);
 
     }
+    /*
     public static void main(String[] args) {
-
-
         tablas t1 = new tablas();
     }
+     */
 }

@@ -40,10 +40,11 @@ public class IMCCalculator extends JFrame implements ActionListener {
         double imc = peso / (altura * altura);
         resultadoLabel.setText("IMC: " + imc);
     }
-
+    /*
     public static void main(String[] args) {
         new IMCCalculator();
     }
+     */
 
     public static class ConversorUnidades extends JFrame {
         private JList<String> unitList;

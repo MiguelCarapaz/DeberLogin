@@ -47,8 +47,10 @@ public class divisas extends JFrame {
         });
 
     }
+    /*
     public static void main(String[] args) {
         divisas divisa1 = new divisas();
 
     }
+     */
 }

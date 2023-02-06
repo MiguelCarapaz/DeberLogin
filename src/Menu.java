@@ -7,8 +7,7 @@ public class Menu extends JFrame implements ActionListener{
     private JMenuBar barra;
     private JMenu menu1;
     private JMenuItem menu_CalDIV, menu_IMC, menu_Cal,menu_Unidades;
-    private JMenuItem menu_PrecCar, menu_TipoCar, menu_perfil, menu_imagen, menu_movimiento;
-
+    private JMenuItem menu_Tienda, menu_TipoCar, menu_perfil, menu_imagen, menu_movimiento;
     public Menu(){
         barra = new JMenuBar();
         setJMenuBar (barra); //
@@ -31,9 +30,9 @@ public class Menu extends JFrame implements ActionListener{
         menu1.add(menu_Unidades);
         menu_Unidades.addActionListener(this);
 
-        menu_PrecCar = new JMenuItem("PRECIO CARRO");
-        menu1.add(menu_PrecCar);
-        menu_PrecCar.addActionListener(this);
+        menu_Tienda = new JMenuItem("STOCK TIENDA");
+        menu1.add(menu_Tienda);
+        menu_Tienda.addActionListener(this);
 
         menu_TipoCar = new JMenuItem("TIPO CARRO");
         menu1.add(menu_TipoCar);
@@ -67,6 +66,23 @@ public class Menu extends JFrame implements ActionListener{
         if(e.getSource()==menu_movimiento){
             Movimiento mv = new Movimiento();
             mv.a();
+        }
+
+        if(e.getSource()==menu_CalDIV){
+            divisas dv = new divisas();
+        }
+        if(e.getSource()==menu_IMC){
+            new IMCCalculator();
+        }
+        if(e.getSource()==menu_Cal){
+            calcu cl = new calcu();
+            cl.a();
+        }
+        if(e.getSource()==menu_Unidades){
+            new ConversorUnidades();
+        }
+        if(e.getSource()==menu_Tienda){
+            tablas t1 = new tablas();
         }
     }
 
