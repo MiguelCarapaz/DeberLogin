@@ -33,6 +33,9 @@ public class Login extends pantalla{
                             "Intente de nuevo");
                 }
                 else {
+                    Menu menu = new Menu();
+                    menu.a();
+                    /*
                     JOptionPane.showMessageDialog(null, "Bienvenido al sistema");
                     JFrame frame = new JFrame("PAGINA PRINCIPAL");
                     frame.setContentPane(new pantalla().panel2);
@@ -41,6 +44,7 @@ public class Login extends pantalla{
                     frame.setSize(1000, 1000);
                     frame.setLocationRelativeTo(null);
                     frame.setVisible(true);
+                     */
                 }
             }
         });
