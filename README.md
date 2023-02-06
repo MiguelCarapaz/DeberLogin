@@ -30,7 +30,15 @@ https://youtu.be/B5bUKw1Ed5M
 			    
 			    CAPTURAS DE PANTALLA
 ![imagen1](capturas/imagen1.PNG)
-![Mostrar datos](img/a802f3e4-ded8-42d5-b5c1-ad762ee7d24d.jpg)
-![Ingreso de datos](img/bb42e988-cb2f-4273-bb16-474264ca8834.jpg)
-![Menu y finalizacion del menu](img/d4b8668b-f6ef-4aa8-b292-93c517594baa.jpg)
+![imagen2](capturas/imagen2.PNG)
+![imagen3](capturas/imagen3.PNG)
+![imagen4](capturas/imagen4.PNG)
+![imagen5](capturas/imagen5.PNG)
+![imagen6](capturas/imagen6.PNG)
+![imagen7](capturas/imagen7.PNG)
+![imagen8](capturas/imagen8.PNG)
+![imagen9](capturas/imagen9.PNG)
+![imagen10](capturas/imagen10.PNG)
+![imagen11](capturas/imagen11.PNG)
+![imagen12](capturas/imagen12.PNG)
 
