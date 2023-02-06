@@ -26,6 +26,7 @@ FUNCIONALIDADES CON COMPONENTES
 10.Imagen a la opcion que uno quiera que pueda moverla dentro del form (JInternalFrame)
 
 			    LINK DEL VIDEO
+https://youtu.be/B5bUKw1Ed5M
 			    
 			    CAPTURAS DE PANTALLA
 	
