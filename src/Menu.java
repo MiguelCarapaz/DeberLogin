@@ -86,13 +86,18 @@ public class Menu extends JFrame implements ActionListener{
         }
     }
 
-    public static void main(String[] args) {
+    public void a() {
         Menu m1 = new Menu();
         m1.setBounds(0,0,550,550);
         m1.setLocationRelativeTo(null);
         m1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         m1.setVisible(true);
 
+        JLabel Usuario = new JLabel();
+        Usuario.setText("Miguel");
+        Usuario.setBounds(10,270,100,100);
+        Usuario.setVisible(true);
+        m1.add(Usuario);
 
         JLabel label = new JLabel();
         m1.add(label);
