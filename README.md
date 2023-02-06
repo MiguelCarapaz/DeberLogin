@@ -2,7 +2,6 @@
 Se creo un login en el que si se ingresa mal las credenciales no deja acceder al sistema
 cuando ingresamos al sistema se puede observar una imagen de perfil del usuario
 y un menu contenedor de los componentes de con diferentes funcionalidades como por ejemplo:
-
 #
 FUNCIONALIDADES CON COMPONENTES
 #
@@ -32,6 +31,7 @@ https://youtu.be/B5bUKw1Ed5M
 			    CAPTURAS DE PANTALLA
 
 ![imagen1](capturas/imagen1.PNG)
+![imagen2](capturas/imagen2.PNG)
 ![imagen3](capturas/imagen3.PNG)
 ![imagen4](capturas/imagen4.PNG)
 ![imagen5](capturas/imagen5.PNG)
