@@ -13,7 +13,11 @@ public class divisas extends JFrame {
 
     public divisas() {
         setTitle("CONVERSOR");
-        setSize(500, 300);
+        //MODIFICADO
+        //setSize(500, 300);
+        setBounds(0,0,550,550);
+        setLocationRelativeTo(null);
+        //MODIFICADO
         setContentPane(mainPanel);
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

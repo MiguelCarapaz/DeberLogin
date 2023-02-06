@@ -28,7 +28,12 @@ public class IMCCalculator extends JFrame implements ActionListener {
         resultadoLabel = new JLabel("");
         add(resultadoLabel);
         setTitle("Calculadora de IMC");
-        setSize(400, 300);
+
+        //MODIFICADO
+        //setSize(400, 300);
+        setBounds(0,0,550,550);
+        setLocationRelativeTo(null);
+        //MODIFICADO
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
