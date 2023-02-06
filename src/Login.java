@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Objects;
 
-public class Login extends pantalla{
+public class Login extends Menu{
     private JLabel usuario;
     private JTextField escribirUsuario;
     private JPanel panel1;
@@ -35,7 +35,7 @@ public class Login extends pantalla{
                 else {
                     JOptionPane.showMessageDialog(null, "Bienvenido al sistema");
                     JFrame frame = new JFrame("PAGINA PRINCIPAL");
-                    frame.setContentPane(new pantalla().panel2);
+                    frame.setContentPane(new Menu().getJMenuBar());
                     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                     frame.pack();
                     frame.setSize(1000, 1000);

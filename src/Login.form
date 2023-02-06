@@ -3,11 +3,11 @@
   <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="14" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="10" left="10" bottom="10" right="10"/>
     <constraints>
-      <xy x="2" y="20" width="869" height="433"/>
+      <xy x="2" y="20" width="586" height="483"/>
     </constraints>
     <properties>
-      <background color="-13906028"/>
-      <foreground color="-1"/>
+      <background color="-2369564"/>
+      <foreground color="-1489835"/>
     </properties>
     <border type="line" title-justification="2" title-position="2">
       <color color="-13906028"/>

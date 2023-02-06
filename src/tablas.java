@@ -15,7 +15,11 @@ public class tablas extends JFrame {
     public tablas() {
 
         setTitle("STOCK TIENDA");
-        setSize(500, 300);
+        //MODIFICADO
+        //setSize(500, 300);
+        setBounds(0,0,550,550);
+        setLocationRelativeTo(null);
+        //MODIFICADO
         setContentPane(tabla);
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

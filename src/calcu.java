@@ -259,6 +259,10 @@ public class calcu {
 
     public void a() {
         JFrame frame = new JFrame("Calculadora");
+        //MODIFICADO
+        frame.setBounds(0,0,550,550);
+        frame.setLocationRelativeTo(null);
+        //MODIFICADO
         frame.setContentPane( new calcu().Panel1 );
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
