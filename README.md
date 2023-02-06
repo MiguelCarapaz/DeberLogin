@@ -29,4 +29,8 @@ FUNCIONALIDADES CON COMPONENTES
 https://youtu.be/B5bUKw1Ed5M
 			    
 			    CAPTURAS DE PANTALLA
-	
+![imagen1](DeberLogin/capturas/imagen1.PNG)
+![Mostrar datos](img/a802f3e4-ded8-42d5-b5c1-ad762ee7d24d.jpg)
+![Ingreso de datos](img/bb42e988-cb2f-4273-bb16-474264ca8834.jpg)
+![Menu y finalizacion del menu](img/d4b8668b-f6ef-4aa8-b292-93c517594baa.jpg)
+
