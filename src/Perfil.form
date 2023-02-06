@@ -43,7 +43,7 @@
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Observe a detalle la foto de perfil"/>
+          <text value="USUARIO : MIGUEL"/>
         </properties>
       </component>
       <grid id="f8163" binding="Contenedor" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
